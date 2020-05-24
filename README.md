@@ -31,11 +31,11 @@ File -> Import -> Maven -> Existing Maven project
    <ol>
     <li>Go to the project directoy of /eureka-service-app and execute the command in terminal `mvn spring-boot:run` </li>
     <li>Go to the project directoy of /eureka-client-app and execute the command in terminal `mvn spring-boot:run` </li>
-   <ol>
+   </ol>
 4) The eureka-client defines a Spring MVC REST endpoint (ServiceInstanceRestController) that returns an enumeration of all the    registered ServiceInstance instances at http://localhost:8080/service-instances/a-bootiful-client. <br>
-   <img src="https://github.com/Sudarshan-Gowda/Spring-cloud-Service-registration-and-discovery/blob/master/docs/Pic1.png" width="100px"/>
+   <img src="https://github.com/Sudarshan-Gowda/Spring-cloud-Service-registration-and-discovery/blob/master/docs/Pic1.png" width="100%"/>
 5) You can check the resistry by using below url http://localhost:8761/ <br>     
-   <img src="https://github.com/Sudarshan-Gowda/Spring-cloud-Service-registration-and-discovery/blob/master/docs/Pic2.png" width="100px"/>
+   <img src="https://github.com/Sudarshan-Gowda/Spring-cloud-Service-registration-and-discovery/blob/master/docs/Pic2.png" width="100%"/>
    
 ## User reference or guide.
   https://spring.io/guides/gs/service-registration-and-discovery/
